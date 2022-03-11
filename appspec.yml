@@ -1,4 +1,5 @@
-version: 0.2
+version: 0.0
+os: linux
 
 phases:
   build:
@@ -8,3 +9,6 @@ phases:
   post_build:
     commands:
        - echo Build completed successfully
+artifacts:
+  files:
+    -'**/*'
